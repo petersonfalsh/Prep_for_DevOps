@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+#header{
+  display: flex;
+}
+
+#nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#form{
+ text-align: center;
+}
+
+#form h3, #form input{
+  margin-bottom: 15px;
+}
+
+#form input{
+  padding: 5px 10px;
+  width: 250px;
+}
+
+.manifesto-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.manifesto-text{
+  margin-left: 200px;
+}
+
