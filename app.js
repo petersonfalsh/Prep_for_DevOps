@@ -1,16 +1,14 @@
 
-// function myFunction(num1, num2){
-//     let age = 30;
-//     let result = num1 + num2;
-//     console.log(result)
-// }
+const express = require('express');
 
-// myFunction(2, 2);
+const app = express();
 
-const arrowFunction = parameter => {
-    let name = 'Adefolarin';
-    let result = 5 + parameter;
-    console.log(result);
-}
+app.get("/", function(req, res){
 
-arrowFunction(2);
+	res.send("Welcome to our home page");
+})
+
+
+app.listen(3000. function(){
+	console.log("Server has started running at port 3000");
+})
